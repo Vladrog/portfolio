@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Рожков Владислав - веб-разработчик</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/animate.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/swiper-bundle.min.css" />
+  </head>
+  <body>
+    <div class="hero section">
+      <div class="container">
+        <div class="hero-header">
+          <img src="images/logo.svg" alt="Glo academy" class="hero-logo" />
+          <div class="social-links">
+            <a href="https://www.instagram.com/viladrog/" class="social-link"
+              ><img
+                class="social-link-image"
+                src="images/social/instagram.png"
+                alt="instagram"
+            /></a>
+            <a href="https://vk.com/curmeaty" class="social-link"
+              ><img
+                class="social-link-image"
+                src="images/social/vk.png"
+                alt="vk"
+            /></a>
+            <a href="https://wa.me/77473209542" class="social-link"
+              ><img
+                class="social-link-image"
+                src="images/social/whatsapp.png"
+                alt="whatsapp"
+            /></a>
+            <a href="https://telegram.me/Viladrog" class="social-link"
+              ><img
+                class="social-link-image"
+                src="images/social/telegram.png"
+                alt="telegram"
+            /></a>
+          </div>
+        </div>
+        <!-- /.hero-header -->
+        <div class="hero-content">
+          <div class="hero-text">
+            <span class="hero-subtitle wow fadeInRight">Фрилансер</span>
+            <h1 class="hero-title wow fadeInRight">
+              Рожков Владислав
+            </h1>
+            <p class="hero-description wow fadeInRight">
+              Разрабатываю сайты для малого и среднего бизнеса. У меня можно
+              заказать дизайн и верстку небольшого сайта или интернет-магазина
+            </p>
+            <button
+              onclick="location.href='#projects'"
+              class="button hero-button wow fadeInRight"
+            >
+              мои проекты
+            </button>
+          </div>
+          <div class="hero-avatar wow fadeIn"></div>
+        </div>
+        <!-- /.hero-content -->
+      </div>
+    </div>
+    <!-- Hero section -->
+    <div class="features section">
+      <div class="container">
+        <h2 class="section-title features-title">Со мной удобно работать</h2>
+        <div class="features-block">
+          <!-- <div class="features-item wow fadeInLeft">
+            <img
+              src="images/features/offer-img.svg"
+              alt="По договору"
+              class="features-item-image"
+            />
+            <h3 class="features-item-title">По договору</h3>
+            <p class="features-item-text">
+              Предоставлю все документы для бухгалтерии: договоры, счета и акты.
+              Работаю как ИП без НДС.
+            </p>
+          </div> -->
+          <div class="features-item wow fadeInLeft">
+            <img
+              src="images/features/deadline-img.svg"
+              alt="Точно в срок"
+              class="features-item-image"
+            />
+            <h3 class="features-item-title">Точно в срок</h3>
+            <p class="features-item-text">
+              Выполняю работу в оговорённые ранее сроки, вношу коррективы только
+              по вашему согласию
+            </p>
+          </div>
+          <div class="features-item wow fadeInRight">
+            <img
+              src="images/features/agreement-img.svg"
+              alt="Ценник под вас"
+              class="features-item-image"
+            />
+            <h3 class="features-item-title">Ценник под вас</h3>
+            <p class="features-item-text">
+              Если у вас нетиповой проект, сделаю рассчет цены за работу и
+              объясню, как складывается цена.
+            </p>
+          </div>
+          <div class="features-item wow fadeInLeft">
+            <img
+              src="images/features/steps-img.svg"
+              alt="Премежуточные итоги"
+              class="features-item-image"
+            />
+            <h3 class="features-item-title">Премежуточные итоги</h3>
+            <p class="features-item-text">
+              Показываю работу поэтапно, а не в последий момент перед крайним
+              сроком.
+            </p>
+          </div>
+          <!-- <div class="features-item wow fadeInUp">
+            <img
+              src="images/features/storage-img.svg"
+              alt="Хостинг и домен "
+              class="features-item-image"
+            />
+            <h3 class="features-item-title">Хостинг и домен</h3>
+            <p class="features-item-text">
+              Если мы договорились о цене проекта, в неё входит всё: домен и
+              хостинг на год + SSL сертификат.
+            </p>
+          </div> -->
+          <div class="features-item wow fadeInRight">
+            <img
+              src="images/features/conversation-img.svg"
+              alt="Не брошу после сдачи"
+              class="features-item-image"
+            />
+            <h3 class="features-item-title">Не брошу после сдачи</h3>
+            <p class="features-item-text">
+              Научу вас или вашего сотрудника пользоваться сайтом, запишу
+              видео-инструкции.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Features section -->
+    <div class="section projects" id="projects">
+      <div class="container">
+        <h2 class="section-title projects-title">Последние проекты</h2>
+
+        <!-- Slider main container -->
+        <div class="swiper-container projects-slider">
+          <!-- Additional required wrapper -->
+          <div class="swiper-wrapper">
+            <!-- Slides -->
+            <div class="swiper-slide projects-slide">
+              <img
+                src="images/slides/first.jpg"
+                alt="Работа №1”"
+                class="project-image"
+              />
+              <div class="project-text">
+                <h3 class="project-title">
+                  Работа №1
+                </h3>
+                <div class="project-time">
+                  <img
+                    src="images/slides/icons/time-icon.svg"
+                    alt="Сроки"
+                    class="project-icon"
+                  />
+                  <div class="project-description">
+                    <h4 class="project-subtitle">Сроки</h4>
+                    <p class="project-paragraph">Здесь будут сроки</p>
+                  </div>
+                </div>
+                <div class="project-cost">
+                  <img
+                    src="images/slides/icons/cost-icon.svg"
+                    alt="Стоимость"
+                    class="project-icon"
+                  />
+                  <div class="project-description">
+                    <h4 class="project-subtitle">Стоимость</h4>
+                    <p class="project-paragraph">Здесь будет стоимость</p>
+                  </div>
+                </div>
+                <div class="project-feedback">
+                  <img
+                    src="images/slides/icons/feedback-icon.svg"
+                    alt="Отзыв клиента"
+                    class="project-icon"
+                  />
+                  <div class="project-description">
+                    <h4 class="project-subtitle">Отзыв клиента</h4>
+                    <p class="project-paragraph">
+                      Здесь будет отзыв клиента
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide projects-slide">
+              <img
+                src="images/slides/second.jpeg"
+                alt="Работа №2”"
+                class="project-image"
+              />
+              <div class="project-text">
+                <h3 class="project-title">
+                  Работа №2
+                </h3>
+                <div class="project-time">
+                  <img
+                    src="images/slides/icons/time-icon.svg"
+                    alt="Сроки"
+                    class="project-icon"
+                  />
+                  <div class="project-description">
+                    <h4 class="project-subtitle">Сроки</h4>
+                    <p class="project-paragraph">Здесь будут сроки</p>
+                  </div>
+                </div>
+                <div class="project-cost">
+                  <img
+                    src="images/slides/icons/cost-icon.svg"
+                    alt="Стоимость"
+                    class="project-icon"
+                  />
+                  <div class="project-description">
+                    <h4 class="project-subtitle">Стоимость</h4>
+                    <p class="project-paragraph">Здесь будет стоимость</p>
+                  </div>
+                </div>
+                <div class="project-feedback">
+                  <img
+                    src="images/slides/icons/feedback-icon.svg"
+                    alt="Отзыв клиента"
+                    class="project-icon"
+                  />
+                  <div class="project-description">
+                    <h4 class="project-subtitle">Отзыв клиента</h4>
+                    <p class="project-paragraph">
+                      Здесь будет отзыв клиента
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide projects-slide">
+              <img
+                src="images/slides/third.png"
+                alt="Работа №3”"
+                class="project-image"
+              />
+              <div class="project-text">
+                <h3 class="project-title">
+                  Работа №3
+                </h3>
+                <div class="project-time">
+                  <img
+                    src="images/slides/icons/time-icon.svg"
+                    alt="Сроки"
+                    class="project-icon"
+                  />
+                  <div class="project-description">
+                    <h4 class="project-subtitle">Сроки</h4>
+                    <p class="project-paragraph">Здесь будут сроки</p>
+                  </div>
+                </div>
+                <div class="project-cost">
+                  <img
+                    src="images/slides/icons/cost-icon.svg"
+                    alt="Стоимость"
+                    class="project-icon"
+                  />
+                  <div class="project-description">
+                    <h4 class="project-subtitle">Стоимость</h4>
+                    <p class="project-paragraph">Здесь будет стоимость</p>
+                  </div>
+                </div>
+                <div class="project-feedback">
+                  <img
+                    src="images/slides/icons/feedback-icon.svg"
+                    alt="Отзыв клиента"
+                    class="project-icon"
+                  />
+                  <div class="project-description">
+                    <h4 class="project-subtitle">Отзыв клиента</h4>
+                    <p class="project-paragraph">
+                      Здесь будет отзыв клиента
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            ...
+          </div>
+          <!-- If we need pagination -->
+          <div class="projects-pagination"></div>
+        </div>
+      </div>
+    </div>
+    <!-- /.section projects -->
+    <div class="contacts section">
+      <div class="container">
+        <h2 class="section-title contacts-title">Свяжитесь со мной</h2>
+        <div class="contacts-block">
+          <!-- <form class="contacts-form">
+            <h3 class="contacts-form-title">
+              Можете оставить здесь заявку, я позвоню вам сегодня
+            </h3>
+            <input
+              type="text"
+              class="contacts-form-input contacts-form-input-name"
+              placeholder="Ваше имя"
+            />
+            <input
+              type="text"
+              class="contacts-form-input contacts-form-input-number"
+              placeholder="Ваш телефон"
+            />
+            <button class="button contacts-form-button">
+              бесплатная консультация
+            </button>
+          </form> -->
+          <div class="contacts-content">
+            <div class="contacts-content-data">
+              <div class="contacts-content-data-number">
+                <h3
+                  class="contacts-content-title contacts-content-data-number-title"
+                >
+                  Телефон
+                </h3>
+                <a
+                  href="tel:+79679687572"
+                  class="contacts-content-text contacts-content-data-number-text"
+                  >+7 967 968 75 72</a
+                >
+              </div>
+              <div class="contacts-content-data-mail">
+                <h3
+                  class="contacts-content-title contacts-content-data-mail-title"
+                >
+                  Почта
+                </h3>
+                <a
+                  href="mailto:viladrog@mail.ru"
+                  class="contacts-content-text contacts-content-data-mail-text"
+                  >viladrog@mail.ru</a
+                >
+              </div>
+            </div>
+            <h3 class="contacts-content-socials-title contacts-content-title">
+              Соцсети
+            </h3>
+            <div class="contacts-content-socials">
+              <div class="contacts-content-socials-item">
+                <a href="https://vk.com/curmeaty" class="contacts-content-text"
+                  >vk.me/curmeaty</a
+                >
+              </div>
+              <div class="contacts-content-socials-item">
+                <a
+                  href="https://telegram.me/Viladrog"
+                  class="contacts-content-text"
+                  >t.me/Viladrog</a
+                >
+              </div>
+              <div class="contacts-content-socials-item">
+                <a
+                  href="https://www.instagram.com/viladrog/"
+                  class="contacts-content-text"
+                  >instagram.com/viladrog</a
+                >
+              </div>
+            </div>
+            <div class="contacts-content-social-links">
+              <a
+                href="https://www.instagram.com/viladrog/"
+                class="contacts-content-social-link"
+                ><img
+                  class="social-link-image"
+                  src="images/social/instagram.png"
+                  alt="instagram"
+              /></a>
+              <a
+                href="https://vk.com/curmeaty"
+                class="contacts-content-social-link"
+                ><img
+                  class="social-link-image"
+                  src="images/social/vk.png"
+                  alt="vk"
+              /></a>
+              <a
+                href="https://wa.me/77473209542"
+                class="contacts-content-social-link"
+                ><img
+                  class="social-link-image"
+                  src="images/social/whatsapp.png"
+                  alt="whatsapp"
+              /></a>
+              <a
+                href="https://telegram.me/Viladrog"
+                class="contacts-content-social-link"
+                ><img
+                  class="social-link-image"
+                  src="images/social/telegram.png"
+                  alt="telegram"
+              /></a>
+            </div>
+            <a href="" class="contacts-content-politics">
+              <p class="contacts-content-politics-text">
+                Политика конфиденциальности
+              </p>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Contacts section -->
+    <script src="js/wow.min.js"></script>
+    <script src="js/swiper-bundle.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
