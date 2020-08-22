@@ -110,7 +110,7 @@ body {
   line-height: 14px;
   font-weight: bold;
   text-transform: uppercase;
-  animation-delay: 0s;
+  animation-delay: 0.9s;
 }
 
 .hero-avatar {
